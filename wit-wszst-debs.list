@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/trusted.gpg.d/wit-wszst-debs.gpg] https://marquis-ng.github.io/wit-wszst-debs/debian ./

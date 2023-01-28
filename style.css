@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  background: linear-gradient(-45deg, #1541db, #00ff8f);
+  background-size: 400%;
+  background-attachment: fixed;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%
+  }
+}
+
+header {
+  background: #777777;
+  color: #fffafa;
+  text-align: center;
+  padding: 60px;
+}
+
+a:link {
+  color: #0ba0b5;
+}
+
+a:visited {
+  color: #0e2b92;
+}
+
+hr {
+  background-color: #212121;
+  border: 1px solid;
+  border-radius: 1px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid;
+  text-align: left;
+  padding: 5px;
+}
+
+main {
+  margin: 0 5%;
+}
+
+.card {
+  background: #faf9f6;
+  color: #212121;
+  opacity: 0.8;
+  margin: 25px 0;
+  padding: 10px 30px;
+  border-radius: 15px;
+  transition: transform 0.25s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card pre {
+  position: relative;
+  white-space: pre-line;
+}
+
+.card pre code {
+  border-radius: 10px;
+  white-space: pre-line;
+}
+
+.card pre:hover button, .card pre button:focus {
+  opacity: 1;
+  z-index: 0;
+}
+
+.card pre button {
+  background-color: #fffafa;
+  color: #343434;
+  font-family: Montserrat;
+  min-height: 16px;
+  padding: 5px;
+  border: none;
+  border-radius: 7px;
+  transition: transform 0.2s ease;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  opacity: 0;
+  z-index: -1;
+}
+
+.card pre button:hover {
+  transform: scale(0.95);
+}
+
+.link-btn {
+  background-color: #00c66f;
+  color: #fffdf8;
+  font-family: Montserrat;
+  font-size: 16px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.25s ease;
+}
+
+.link-btn:hover {
+  transform: scale(1.1);
+}
+
+.err-404 {
+  position: absolute;
+  bottom: 30px;
+}
+
+.err-404-msg {
+  font-size: 108px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.err-404-btn {
+  background-color: #414141;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #414141;
+  color: #fffdf8;
+  padding: 20px 5% 50px;
+}

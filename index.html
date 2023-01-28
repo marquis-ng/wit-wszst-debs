@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/wit-wszst-debs/">
+    <title>wit-wszst-debs</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/vs2015.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>wit-wszst-debs</h1>
+      <p>Debian repository for Wiimms ISO Tools and Wiimms SZS Tools.</p>
+    </header>
+    <main>
+      <div class="card">
+        <h2>Introduction</h2>
+        <p>This repository provides Debian packages of <a href="https://github.com/Wiimm/wiimms-iso-tools">Wiimms ISO Tools</a> and <a href="https://github.com/Wiimm/wiimms-szs-tools">Wiimms SZS Tools</a>. It checks for a new version of them every 24 hours. If a new version is found, it will be compiled and uploaded here as a Debian package.</p>
+      </div>
+      <div class="card">
+        <h2>Installation</h2>
+        <h3>Debian repository</h3>
+        <pre><code class="language-bash">sudo wget https://marquis-ng.github.io/wit-wszst-debs/wit-wszst-debs.list -O /etc/apt/sources.list.d/wit-wszst-debs.list
+          wget -O- https://marquis-ng.github.io/wit-wszst-debs/KEY.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/wit-wszst-debs.gpg > /dev/null
+          sudo apt update
+        </code></pre>
+        <hr>
+        <h3>Package</h3>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Summary</th>
+            <th>Command</th>
+          </tr>
+          <tr>
+            <td class="pkgname">wit</td>
+            <td>Wiimms ISO Tools</td>
+            <td>
+              <pre><code class="language-bash">sudo apt install wit</code></pre>
+            </td>
+          </tr>
+          <tr>
+            <td class="pkgname">wszst</td>
+            <td>Wiimms SZS Tools</td>
+            <td>
+              <pre><code class="language-bash">sudo apt install wszst</code></pre>
+            </td>
+          </tr>
+        </table>
+        <p>After that, the utility will be installed!</p>
+      </div>
+    </main>
+    <footer>
+      <a href="https://github.com/marquis-ng/wit-wszst-debs" tabindex="-1"><button class="link-btn">Go to GitHub repo</button></a>
+      <p>2023 Marquis</p>
+    </footer>
+  </body>
+  </html>
