@@ -1,0 +1,96 @@
+Package: wit
+Version: 3.05a~git20220827.fc1c0b8
+Architecture: amd64
+Maintainer: Marquis
+Installed-Size: 14164
+Depends: libc6, libssl3, libtinfo6, zlib1g
+Provides: wit
+Filename: ./wit_3.05a~git20220827.fc1c0b8_amd64.deb
+Size: 1268816
+MD5sum: d6187e7366c4366ce40dc67588b9c5c0
+SHA1: b4606998b042c124481b1e07531d9aecdca2d349
+SHA256: 98228c49c9064fe82e3a8229115438a29a4e00b53ddf69ec6ab470c0fa303d51
+Section: utils
+Priority: extra
+Description: Manipulate Wii and GameCube ISO images and WBFS containers.
+
+Package: wit
+Version: 3.05a~git20220827.fc1c0b8
+Architecture: arm64
+Maintainer: Marquis
+Installed-Size: 13464
+Depends: libc6, libssl3, libtinfo6, zlib1g
+Provides: wit
+Filename: ./wit_3.05a~git20220827.fc1c0b8_arm64.deb
+Size: 1247892
+MD5sum: 73378390db0c4d7d38897f331eaac104
+SHA1: ea24f262223fe8bddb4c7f41a47a1e46bfc3495b
+SHA256: d013ef231f06f7cc1b637bafa55e195acd40ff91305f0efeb565dcf0754aef08
+Section: utils
+Priority: extra
+Description: Manipulate Wii and GameCube ISO images and WBFS containers.
+
+Package: wit
+Version: 3.05a~git20220827.fc1c0b8
+Architecture: armhf
+Maintainer: Marquis
+Installed-Size: 10756
+Depends: libc6, libssl3, libtinfo6, zlib1g
+Provides: wit
+Filename: ./wit_3.05a~git20220827.fc1c0b8_armhf.deb
+Size: 1083864
+MD5sum: cf2114711d215e6edd943de91510ed6f
+SHA1: 9496268f4aad16b249f2a9a7a77e000c8dd2d430
+SHA256: d9ee399e346565043d27169213eabdb88832f56003f7815437fe8648c8e67b49
+Section: utils
+Priority: extra
+Description: Manipulate Wii and GameCube ISO images and WBFS containers.
+
+Package: wszst
+Version: 2.33a~git20230114.f978a96
+Architecture: amd64
+Maintainer: Marquis
+Installed-Size: 14768
+Depends: libc6, libpng16-16, libssl3, libtinfo6, zlib1g
+Provides: wszst
+Filename: ./wszst_2.33a~git20230114.f978a96_amd64.deb
+Size: 2364416
+MD5sum: acaca371c4bae19c1195d550d2b86d7d
+SHA1: 59b1f04e4575b35561c658e30a5cb59829e61463
+SHA256: 4090043b7bedfa5c1ad77a612dedd62c16e5ae4ea267bafded567d68a53ee0e3
+Section: utils
+Priority: extra
+Description: Manipulate SZS, U8, WBZ, WU8, PACK, BRRES, BREFF, BREFT, BMG, KCL, KMP, MDL, PAT, TEX, TPL, BTI, main.dol and StaticR.rel files of Mario Kart Wii.
+
+Package: wszst
+Version: 2.33a~git20230114.f978a96
+Architecture: armhf
+Maintainer: Marquis
+Installed-Size: 9804
+Depends: libc6, libpng16-16, libssl3, libtinfo6, zlib1g
+Provides: wszst
+Filename: ./wszst_2.33a~git20230114.f978a96_armhf.deb
+Size: 1797792
+MD5sum: 8973cc1e44e3cf2263fa70de3f43c5b1
+SHA1: 80f05c89844827e7ffaa473531cdab177483854b
+SHA256: d6b9a04785bfbe5d3ee5daca04bb965c2394f9b936c8a1ddab3fc755cb31f01f
+Section: utils
+Priority: extra
+Description: Manipulate SZS, U8, WBZ, WU8, PACK, BRRES, BREFF, BREFT, BMG, KCL, KMP, MDL, PAT, TEX, TPL, BTI, main.dol and StaticR.rel files of Mario Kart Wii.
+
+Package: wszst
+Version: 2.33a~git20230114.f978a96
+Architecture: arm64
+Maintainer: Marquis
+Installed-Size: 14064
+Depends: libc6, libpng16-16, libssl3, libtinfo6, zlib1g
+Provides: wszst
+Filename: ./wszst_2.33a~git20230114.f978a96_arm64.deb
+Size: 2285220
+MD5sum: 971c422b1a68136ce1191b13d0decb31
+SHA1: d4e60b60a454f74c254762d27af212249a6f427e
+SHA256: 47f8676012d90590423cf3363d305b4de31e772ce839c08b3c0c390f59978dfe
+Section: utils
+Priority: extra
+Description: Manipulate SZS, U8, WBZ, WU8, PACK, BRRES, BREFF, BREFT, BMG, KCL, KMP, MDL, PAT, TEX, TPL, BTI, main.dol and StaticR.rel files of Mario Kart Wii.
+
