@@ -150,7 +150,7 @@ jobs:
           path: staging
 
       - name: Move wit packages to debian/
-        if: ${{needs.build.outputs.build_wit}}
+        if: ${{needs.build.outputs.build_wit == 'true'}}
         run: |
           mkdir -p debian
           for deb in staging/wit-*/wit_*.deb; do
@@ -164,7 +164,7 @@ jobs:
           printf "%s\n" "${{needs.build.outputs.wit}}" > wit-version.txt
 
       - name: Move wszst packages to debian/
-        if: ${{needs.build.outputs.build_wszst}}
+        if: ${{needs.build.outputs.build_wszst == 'true'}}
         run: |
           mkdir -p debian
           for deb in staging/wszst-*/wszst_*.deb; do
