@@ -190,3 +190,51 @@ Section: utils
 Priority: extra
 Description: Manipulate SZS, U8, WBZ, WU8, PACK, BRRES, BREFF, BREFT, BMG, KCL, KMP, MDL, PAT, TEX, TPL, BTI, main.dol and StaticR.rel files of Mario Kart Wii.
 
+Package: wszst
+Version: 2.36a~git20230722.7a4ee26
+Architecture: arm64
+Maintainer: Marquis
+Installed-Size: 14448
+Depends: libc6, libpng16-16, libssl3, libtinfo6, zlib1g
+Provides: wszst
+Filename: ./wszst_2.36a~git20230722.7a4ee26_arm64.deb
+Size: 2478304
+MD5sum: f2d4aa20879ba7a86f399077c25a685b
+SHA1: 3e46648e29b009bf1f4d7105e6c0e80df2eca251
+SHA256: ac4c97c6d370f5fc4bd92a4015c499a665197ddb3720c040e58ad6da8f33d468
+Section: utils
+Priority: extra
+Description: Manipulate SZS, U8, WBZ, WU8, PACK, BRRES, BREFF, BREFT, BMG, KCL, KMP, MDL, PAT, TEX, TPL, BTI, main.dol and StaticR.rel files of Mario Kart Wii.
+
+Package: wszst
+Version: 2.36a~git20230722.7a4ee26
+Architecture: amd64
+Maintainer: Marquis
+Installed-Size: 15152
+Depends: libc6, libpng16-16, libssl3, libtinfo6, zlib1g
+Provides: wszst
+Filename: ./wszst_2.36a~git20230722.7a4ee26_amd64.deb
+Size: 2547456
+MD5sum: 77d8612fb0089259947dcf85c0fe58e8
+SHA1: d6373743e95c1d4f21d1f351c4d4fa6fa35e5a1e
+SHA256: 3e6520e1d97bc4bd8e45c1a9409fc6e77dfcdd6fe4d7243a36d293ccff83a53a
+Section: utils
+Priority: extra
+Description: Manipulate SZS, U8, WBZ, WU8, PACK, BRRES, BREFF, BREFT, BMG, KCL, KMP, MDL, PAT, TEX, TPL, BTI, main.dol and StaticR.rel files of Mario Kart Wii.
+
+Package: wszst
+Version: 2.36a~git20230722.7a4ee26
+Architecture: armhf
+Maintainer: Marquis
+Installed-Size: 10100
+Depends: libc6, libpng16-16, libssl3, libtinfo6, zlib1g
+Provides: wszst
+Filename: ./wszst_2.36a~git20230722.7a4ee26_armhf.deb
+Size: 1973248
+MD5sum: c831a7d59a21ec180885a614bab74d54
+SHA1: f9a631a30d513d5bf74bd3b17b272338ed7cdf04
+SHA256: 342333105fd2fa47c460f5f86fcb850e2270160224f1e40bd19f658881610ab8
+Section: utils
+Priority: extra
+Description: Manipulate SZS, U8, WBZ, WU8, PACK, BRRES, BREFF, BREFT, BMG, KCL, KMP, MDL, PAT, TEX, TPL, BTI, main.dol and StaticR.rel files of Mario Kart Wii.
+
